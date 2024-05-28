@@ -12,7 +12,7 @@ node and explores as far as possible along each branch before backtracking.
 
 ### Complexity Analysis
 
-* **Time Complexity:** `O(V + E)`, where `V` is the number of vertices and `E` is the number of edges in the graph.
+*   **Time Complexity:** `O(V + E)`, where `V` is the number of vertices and `E` is the number of edges in the graph.
 
 ## Requirements
 

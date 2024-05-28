@@ -12,4 +12,5 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 
 ### Sort
 
+*   [Selection Sort](algorithms/sort/selection/README.md)
 *   to be continued ...
