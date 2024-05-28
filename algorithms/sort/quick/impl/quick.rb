@@ -2,41 +2,41 @@
 
 # Sorts an array using the quick sort algorithm.
 #
-# @param [Array] list The array to sort.
+# @param [Array] array The array to sort.
 # @param [Integer] low The lower index of the array.
 # @param [Integer] high The higher index of the array.
 # @return [Array] The sorted array.
-def quick_sort(list, low = 0, high = list.length - 1)
+def quick_sort(array, low = 0, high = array.length - 1)
   if low < high
-    pivot_index = partition(list, low, high)
-    quick_sort(list, low, pivot_index - 1)
-    quick_sort(list, pivot_index + 1, high)
+    pivot_index = partition(array, low, high)
+    quick_sort(array, low, pivot_index - 1)
+    quick_sort(array, pivot_index + 1, high)
   end
 
-  list
+  array
 end
 
-# Partitions the list between indices low and high using the element at high as
+# Partitions the array between indices low and high using the element at high as
 # the pivot. Rearranges elements so that those less than the pivot are on the
 # left, and those greater are on the right. The pivot is then placed in its
 # correct sorted position.
 #
-# @param [Array] list The array to partition.
+# @param [Array] array The array to partition.
 # @param [Integer] low The lower index of the array.
 # @param [Integer] high The higher index of the array.
 # @return [Integer] The index of the pivot element.
-def partition(list, low, high)
-  pivot = list[high]
+def partition(array, low, high)
+  pivot = array[high]
   i     = low
 
   (low...high).each do |j|
-    if list[j] < pivot
-      list[i], list[j] = list[j], list[i]
+    if array[j] < pivot
+      array[i], array[j] = array[j], array[i]
       i += 1
     end
   end
 
-  list[i], list[high] = list[high], list[i]
+  array[i], array[high] = array[high], array[i]
   i
 end
 

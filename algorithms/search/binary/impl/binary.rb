@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-# Performs binary search on a sorted array to find the index of a target value.
+# Performs binary search on a sorted list to find the index of a target value.
 #
-# @param list [Array] The sorted array in which to search.
+# @param list [Array] The sorted list in which to search.
 # @param target [Object] The value to search for.
 # @return [Integer, nil] The index of the target value if found, otherwise nil.
 def binary_search(list, target)

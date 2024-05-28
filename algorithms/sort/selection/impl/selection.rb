@@ -2,13 +2,13 @@
 
 # Finds the smallest item in an array and returns its index.
 #
-# @param list [Array] The list of items to search.
-# @return [Integer] The index of the smallest item in the list.
-def find_smallest(list)
+# @param array [Array] The array of items to search.
+# @return [Integer] The index of the smallest item in the array.
+def find_smallest(array)
   smallest_index = 0
 
-  list.each_with_index do |item, index|
-    if item < list[smallest_index]
+  array.each_with_index do |item, index|
+    if item < array[smallest_index]
       smallest_index = index
     end
   end
@@ -18,18 +18,18 @@ end
 
 # Sorts an array using the selection sort algorithm.
 #
-# @param list [Array] The list to sort.
-# @return [Array] The sorted list.
-def selection_sort(list)
-  new_list = []
+# @param array [Array] The array to sort.
+# @return [Array] The sorted array.
+def selection_sort(array)
+  new_array = []
 
-  until list.empty?
-    smallest_index = find_smallest(list)
-    smallest = list.delete_at(smallest_index)
-    new_list.push(smallest)
+  until array.empty?
+    smallest_index = find_smallest(array)
+    smallest = array.delete_at(smallest_index)
+    new_array.push(smallest)
   end
 
-  new_list
+  new_array
 end
 
 ################################################################################
