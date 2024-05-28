@@ -21,3 +21,17 @@ node and explores as far as possible along each branch before backtracking.
 *   A **Traversal Mechanism**
     *   A way to visit nodes, check neighbors, and track visited nodes (such as **Boolean array** or **Set**)
 *   A stack of nodes to be processed
+
+## Pseudocode
+
+1.  **Initialize** a stack with the starting node
+2.  **While** the stack is not empty:
+    1.  **Pop** a node from the stack
+    2.  **If** the node has not been visited:
+        1.  **Mark** the node as visited
+        2.  **Process** the node
+        3.  **For each** neighbor of the node:
+            1.  **If** the neighbor has not been visited:
+                1.  **Push** the neighbor onto the stack
+3.  **Terminate** when all nodes have been visited or the target node is found
+
