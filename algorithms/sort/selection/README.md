@@ -5,7 +5,7 @@
 Selection sort selects the smallest element from the unsorted portion of a list and swaps it with the first element of the unsorted portion. This process repeats until the entire list is sorted.
 
 | Advantages | Disadvantages |
-|-|-|
+|------------|---------------|
 | Simple and easy to understand | Does not preserve the relative order of items with equal keys |
 | Great for small datasets | Not ideal for large datasets due to time complexity |
 

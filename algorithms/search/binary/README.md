@@ -6,7 +6,7 @@ Binary search is used for finding the position a target value within a _sorted_ 
 the search interval in half until either a) the target is found, or b) the interval is empty.
 
 | Advantages | Disadvantages |
-|-|-|
+|------------|---------------|
 |Faster than linear search, especially in large arrays | Array must be sorted |
 | More efficient than many other search algorithms with similar time complexity | Data structure being searched must be stored in contiguous memory locations |
 

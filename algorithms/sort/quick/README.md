@@ -9,7 +9,7 @@ The key process in quick sort is the `partition`, which aims to place the pivot 
 array (placing all smaller elements to the left of the pivot and placing all larger elements to the right of the pivot).
 
 | Advantages | Disadvantages |
-|-|-|
+|------------|---------------|
 | Efficient on large datasets | Not a good choice on small datasets |
 | Low overhead, requiring little memory to function | Not a stable sort (relative order will not be preserved for two elements with the same key) |
 
