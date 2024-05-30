@@ -8,27 +8,28 @@ require 'set'
 #
 # @param graph [Hash] The adjacency list representing the graph, where keys are nodes
 #                     and values are arrays of adjacent nodes.
-# @param start [String] The starting node for the DFS traversal.
-def depth_first_search(graph, start)
-  stack   = [start]
+# @param start_node [String] The starting node for the DFS traversal.
+def depth_first_search(graph, start_node, target)
+  stack   = [start_node]
   visited = Set.new
 
-  while stack.any?  
-    node = stack.pop
+  until stack.empty?
+    current_node = stack.pop
 
-    next if visited.include?(node)
+    # Skip nodes that have already been visited
+    next if visited.include?(current_node)
 
-    # Process the node (e.g., print it) and mark it as 'visited'
-    puts node
-    visited.add(node)
+    # Return the target node if it has been found
+    return current_node if current_node == target
 
-    # Add all unvisited neighbors of the current node to the stack.
-    # We reverse the order to maintain the correct traversal order since
-    # the stack is LIFO (Last In, First Out).
-    graph[node].reverse.each do |neighbor|
-      stack.push(neighbor)
-    end
+    # Process the current node (e.g., print it) and mark it as 'visited'
+    puts current_node
+    visited.add(current_node)
+
+    stack.concat(graph[current_node].reverse)
   end
+
+  nil
 end
 
 ################################################################################
@@ -49,6 +50,7 @@ graph = {
 }
 
 start = 'A'
+target = 'F'
 
 puts "DFS Traversal starting from node '#{start}':"
-depth_first_search(graph, start)
+depth_first_search(graph, start, target)

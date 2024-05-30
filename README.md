@@ -7,6 +7,7 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 ### Search
 
 *   [Binary Search](algorithms/search/binary/README.md)
+*   [Breadth-First Search](algorithms/search/bfs/README.md)
 *   [Depth-First Search](algorithms/search/dfs/README.md)
 
 ### Sort
