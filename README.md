@@ -20,6 +20,8 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 ### Linear
 
 *   [Arrays and Lists](data-structures/linear/arrays-and-lists/README.md)
+*   [Queues](data-structures/linear/queues/README.md)
+*   [Stacks](data-structures/linear/stacks/README.md)
 
 ### Hierarchical
 
