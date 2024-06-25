@@ -30,7 +30,4 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 ### Non-linear
 
 *   [Graph](data-structures/non-linear/graphs/README.md)
-
-### Hierarchical
-
-*   to be continued ...
+*   [Tree](data-structures/non-linear/trees/README.md)
