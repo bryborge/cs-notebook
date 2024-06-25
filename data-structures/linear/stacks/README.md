@@ -2,7 +2,7 @@
 
 ## Summary
 
-A stack data structure is a linear data structure used for storing and managing data in a particular order.  The order
+A stack is a linear data structure used for storing and managing data in a particular order.  The order
 may be "Last in, First out" (LIFO) or "First in, Last out" (FILO).
 
 ```
