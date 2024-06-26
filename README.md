@@ -4,6 +4,10 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 
 ## Algorithms
 
+### Classification
+
+*   [K-Nearest Neighbor (KNN)](algorithms/classification/knn/README.md)
+
 ### Search
 
 *   [Binary Search](algorithms/search/binary/README.md)
@@ -29,5 +33,5 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 
 ### Non-linear
 
-*   [Graph](data-structures/non-linear/graphs/README.md)
-*   [Tree](data-structures/non-linear/trees/README.md)
+*   [Graphs](data-structures/non-linear/graphs/README.md)
+*   [Trees](data-structures/non-linear/trees/README.md)
