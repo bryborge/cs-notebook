@@ -35,3 +35,9 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 
 *   [Graphs](data-structures/non-linear/graphs/README.md)
 *   [Trees](data-structures/non-linear/trees/README.md)
+
+## Design Patterns
+
+### Behavioral
+
+*   [Template Method](design-patterns/behavioral/template-method/README.md)
