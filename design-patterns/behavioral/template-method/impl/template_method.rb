@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-##
+################################################################################
 # Abstract superclass
-#
+
 class AbstractRecipe
   # The template method defining the skeleton of the algorithm
   def prepare_recipe
@@ -46,9 +46,9 @@ class AbstractRecipe
   def after_prepare; end
 end
 
-##
+################################################################################
 # Concrete subclasses
-#
+
 class PastaRecipe < AbstractRecipe
   def gather_ingredients
     puts 'Gathering ingredients for pasta: pasta, tomatoes, garlic, olive oil, salt, and pepper.'
@@ -99,8 +99,8 @@ class SaladRecipe < AbstractRecipe
   end
 end
 
-##
-# Example usage
+################################################################################
+# Example Usage
 
 pasta = PastaRecipe.new
 pasta.prepare_recipe
