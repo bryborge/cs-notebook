@@ -38,6 +38,13 @@ Concepts, theory, and tidbits picked up along the way toward computational maste
 
 ## Design Patterns
 
+## Architectural
+
+*   [Client-Server](design-patterns/architectural/client-server/README.md)
+*   [Microservices](design-patterns/architectural/microservices/README.md)
+*   [Model-View-Controller](design-patterns/architectural/mvc/README.md)
+*   [Strangler](design-patterns/architectural/strangler/README.md)
+
 ### Behavioral
 
 *   [Template Method](design-patterns/behavioral/template-method/README.md)
