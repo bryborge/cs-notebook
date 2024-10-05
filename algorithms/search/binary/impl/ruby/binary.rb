@@ -32,4 +32,4 @@ list   = [1, 3, 5, 7, 9]
 target = 5
 result = binary_search(list, target)
 
-puts "Index of #{target} in #{list} is #{result}"
+puts "Index of target #{target} is #{result}"
