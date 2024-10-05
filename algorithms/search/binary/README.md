@@ -2,8 +2,8 @@
 
 ## Summary
 
-Binary search is used for finding the position a target value within a _sorted_ array. It works by repeatedly dividing
-the search interval in half until either a) the target is found, or b) the interval is empty.
+Binary search is used for finding the position of a target value within a _sorted_ array. It works by repeatedly
+dividing the search interval in half until either a) the target is found, or b) the interval is empty.
 
 | Advantages | Disadvantages |
 |------------|---------------|
